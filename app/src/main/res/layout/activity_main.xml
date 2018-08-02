@@ -24,7 +24,7 @@
         android:textColor="#FFFF" />
 
     <Button
-        android:text="Sign UP"
+        android:text="git push -u origin masterSign UP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
