@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "756512153309",
+    "firebase_url": "https://toward-hajj.firebaseio.com",
+    "project_id": "toward-hajj",
+    "storage_bucket": "toward-hajj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756512153309:android:09fea503a741551a",
+        "android_client_info": {
+          "package_name": "com.example.z07z.toward_hajj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756512153309-n6g32rbg5fl8av9a9d4tfk937tqr5hsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.z07z.toward_hajj",
+            "certificate_hash": "97fb4ce14d66405e380e3ae5604f4562b3facb82"
+          }
+        },
+        {
+          "client_id": "756512153309-v5vkdempt5b24ok7isq64luffml7d6ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxtbAL9w0hskh-LM3MdW24RNj_DAu-RGk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756512153309-v5vkdempt5b24ok7isq64luffml7d6ri.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "756512153309-9fcgecglt3bbqpjb6uko7mrl7bn2cgk6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Aoun.Aoun"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756512153309:android:e83b92e76cf54f4a",
+        "android_client_info": {
+          "package_name": "com.hakathon.aoun.aounv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756512153309-v5vkdempt5b24ok7isq64luffml7d6ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxtbAL9w0hskh-LM3MdW24RNj_DAu-RGk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
