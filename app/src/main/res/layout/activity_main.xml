@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main2"
     android:layout_width="match_parent"
@@ -11,28 +12,54 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hakathon.aoun.aounv.MainActivity">
 
-    <Button
-        android:text="Log In"
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="102dp"
-        android:id="@+id/loginButton"
-        android:background="@drawable/btnstyle"
+        android:id="@+id/linearv">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/registrationub"
 
-        android:textColor="#FFFF" />
+            android:id="@+id/linearvimg"/>
 
-    <Button
-        android:text="git push -u origin masterSign UP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/loginButton"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/button4"
-        android:background="#37667A"
-        android:textColor="#FFFF" />
+
+        <Button
+            android:text="Log In"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/loginButton"
+            android:layout_alignStart="@+id/imageView"
+            android:background="@drawable/btnstyle"
+            android:layout_marginBottom="22dp"
+
+            android:textColor="#FFFF" />
+
+        <Button
+            android:text="Sign UP"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/loginButton"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btnstyledark"
+
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+
 
 
 </RelativeLayout>

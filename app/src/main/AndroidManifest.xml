@@ -6,7 +6,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:label="">
+
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/FullscreenTheme">
@@ -16,9 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SighnupActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:label="Registration"/>
+
+        <activity android:name=".LoginActivity"
+            android:label="Log In"
+            />
+        <activity android:name=".SighnupActivity"
+
+            ></activity>
     </application>
 
 </manifest>
